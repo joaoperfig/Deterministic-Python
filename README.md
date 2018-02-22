@@ -12,8 +12,8 @@ Functions can be defined as deterministic if the return product is always the sa
 A cache of return values is kept for each deterministic function to optimize runtime.
 
 ## How to use the interpreter:
-Place "deterministic" file next to your .dpy code
-Run your code with "python deterministic yourcode.dpy"
+1. Place "deterministic" file next to your .dpy code
+2. Run your code with "python deterministic yourcode.dpy"
 
 ## Comparison with regular python
 
@@ -39,6 +39,6 @@ The red line that is always on zero is Deterministic Python
 
 ## Warnings
 
-You cannot use the word "deterministic" outside the mentioned context.
-Code must be indented with spaces only.
-Deterministic Python still has the default recursion depth, so while fib(2000) can be calculated almos instantly here it would still raise a maximum recursion exception.
+1. You cannot use the word "deterministic" outside the mentioned context.
+2. Code must be indented with spaces only.
+3. Deterministic Python still has the default recursion depth, so while fib(2000) can be calculated almos instantly here it would still raise a maximum recursion exception.
