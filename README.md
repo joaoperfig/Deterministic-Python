@@ -41,4 +41,4 @@ The red line that is always on zero is Deterministic Python
 
 1. You cannot use the word "deterministic" outside the mentioned context.
 2. Code must be indented with spaces only.
-3. Deterministic Python still has the default recursion depth, so while fib(2000) can be calculated almos instantly here it would still raise a maximum recursion exception.
+3. Deterministic Python still has the default recursion depth, so while fib(2000) can be calculated almost instantly here it would still raise a maximum recursion exception.
