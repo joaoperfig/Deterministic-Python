@@ -1,5 +1,5 @@
 # Deterministic-Python
-###A programming language based on Python that fixes complexity problems with some recursive functions.
+### A programming language based on Python that fixes complexity problems with some recursive functions.
 
 Deterministic Python is your usual Python3 in every way except that you can define some functions as:
 
@@ -11,11 +11,11 @@ deterministic function(arguments):
 Functions can be defined as deterministic if the return product is always the same for the same arguments.
 A cache of return values is kept for each deterministic function to optimize runtime.
 
-##How to use:
+## How to use the interpreter:
 Place "deterministic" file next to your .dpy code
 Run your code with "python deterministic yourcode.dpy"
 
-##Comparison with regular python
+## Comparison with regular python
 
 Here's the poster child of exponential time complexity in Python:
 
@@ -37,7 +37,7 @@ And here is a nifty graph comparing runtimes(seconds) for the first 35 numbers o
 
 The red line that is always on zero is Deterministic Python
 
-##Warnings
+## Warnings
 
 You cannot use the word "deterministic" outside the mentioned context.
 Code must be indented with spaces only.
