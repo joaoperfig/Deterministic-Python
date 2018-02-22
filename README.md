@@ -2,12 +2,12 @@
 ### A programming language based on Python that fixes complexity problems with some recursive functions.
 
 Deterministic Python is your usual Python3 in every way except that you can define some functions as:
-
+```python
 deterministic function(arguments):
     do(stuff)
 	...
 	return result
-	
+```
 Functions can be defined as deterministic if the return product is always the same for the same arguments.
 A cache of return values is kept for each deterministic function to optimize runtime.
 
