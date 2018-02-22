@@ -18,19 +18,19 @@ Run your code with "python deterministic yourcode.dpy"
 ## Comparison with regular python
 
 Here's the poster child of exponential time complexity in Python:
-
+```python
 def fib(n):
     if (n<=1):
         return 1
     return fib(n-1) + fib(n-2)
-	
+```
 And here is the its equivalent in Deterministic Python
-
+```python
 deterministic fib(n):
     if (n<=1):
         return 1
     return fib(n-1) + fib(n-2)
-	
+```
 And here is a nifty graph comparing runtimes(seconds) for the first 35 numbers of the Fibbonacci sequence:
 
 ![alt text](https://image.ibb.co/foSnOH/comparision.png "time graph")
